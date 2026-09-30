@@ -1,0 +1,323 @@
+COMPANY HR POLICY HANDBOOK
+Acme Corp - Employee Handbook (Demo Document)
+
+1. LEAVE POLICY
+Purpose:
+The Leave Policy defines the types of leave available to employees, eligibility requirements, approval procedures, and rules for managing unused leave.
+Policy:
+All full-time employees are entitled to 20 days of paid annual leave per calendar year.
+Leave requests must be submitted through the HR portal at least 5 working days in advance.
+Leave should be approved by the employee's reporting manager before the employee takes the leave.
+Unused annual leave may be carried forward to the following calendar year, up to a maximum of 5 days.
+Any annual leave exceeding the permitted carry-forward limit may expire at the end of the applicable period.
+Sick leave is separate from annual leave.
+Employees are entitled to 10 paid sick days per year.
+Employees should notify their manager as soon as reasonably possible when they are unable to work due to illness.
+A medical certificate is required when sick leave exceeds 2 consecutive days.
+Leave records are maintained through the company's HR system.
+Employees should ensure that planned leave does not unnecessarily affect critical business activities.
+Leave approval may depend on business requirements, team availability, and applicable company rules
+
+2. WORK FROM HOME POLICY
+Purpose:
+The Work From Home Policy defines the conditions under which employees may work remotely and establishes expectations regarding availability, productivity, and communication.
+Policy:
+Employees may work from home for up to 2 days per week, subject to manager approval.
+Work-from-home requests should be submitted through the company's designated process.
+Managers may approve or decline requests based on business requirements, team availability, workload, and employee responsibilities.
+Fully remote work arrangements require written approval from the department head.
+Employees working from home must remain reachable during core working hours of 10:00 AM to 4:00 PM.
+Employees must attend scheduled meetings and remain available through approved communication channels.
+Employees are expected to maintain normal productivity and meet assigned deadlines while working remotely.
+Employees must maintain a suitable and secure working environment.
+Confidential company information must not be exposed to unauthorized individuals while working remotely.
+Employees must follow applicable IT security and data-protection requirements.
+Employees should immediately report technical or security issues that prevent them from performing their work.
+The company may review or modify work-from-home arrangements based on business requirements.
+
+3. PROBATION PERIOD
+Purpose:
+The Probation Period Policy defines the initial evaluation period for newly hired employees and establishes expectations during probation.
+Policy:
+All new employees undergo a probation period of 3 months from their date of joining.
+The probation period is intended to evaluate the employee's performance, conduct, skills, attendance, and suitability for the position.
+During probation, employees are not eligible for paid leave.
+Employees may take unpaid leave in emergency situations, subject to manager approval.
+Employees must follow all company policies during the probation period.
+Managers should provide appropriate feedback regarding the employee's performance.
+Performance is formally reviewed at the end of the probation period.
+Based on the review, the company may confirm the employee's employment.
+Where performance does not meet expectations, the company may take appropriate action according to applicable company procedures.
+Employees remain subject to the company's Code of Conduct and other workplace requirements throughout probation.
+
+4. NOTICE PERIOD
+Purpose:
+The Notice Period Policy defines the resignation notice requirements for employees and the applicable procedures during the separation process.
+Policy:
+Employees who wish to resign must provide formal written notice to the company.
+The standard notice period is 30 days.
+Employees serving their probation period have a reduced notice period of 15 days.
+The notice period normally begins from the date the resignation is formally accepted or recorded according to company procedures.
+Employees are expected to continue performing their assigned responsibilities during the notice period.
+Employees should complete knowledge transfer and transition activities before their last working day.
+Company assets must be returned according to the exit process.
+The company may waive the notice period at its discretion.
+Any approved early release or notice-period waiver must be documented by the appropriate authority.
+Full and final settlement is processed within 45 days of the last working day.
+Employees should complete all required clearance activities before separation.
+
+5. REIMBURSEMENT POLICY
+Purpose:
+The Reimbursement Policy defines the process for claiming approved business expenses incurred by employees while performing official company activities.
+Policy:
+Employees may claim reimbursement for approved business expenses.
+Eligible expenses may include:
+Business travel
+Client meals
+Internet expenses used for official work
+Other approved business-related expenses
+Expenses must be directly related to legitimate business activities.
+Employees must obtain required approval before incurring expenses where prior approval is required.
+All reimbursement claims must be supported by valid bills, receipts, or other required documentation.
+Claims must be submitted within 30 days of the expense.
+Employees are responsible for ensuring that submitted information is accurate.
+Duplicate, personal, or unsupported expenses may be rejected.
+The reporting manager must review and approve the reimbursement claim.
+Claims are processed within 10 working days after reporting-manager approval.
+Finance may request additional documentation before processing a claim.
+Employees may be required to repay amounts that were incorrectly reimbursed.
+
+6. CODE OF CONDUCT
+Purpose:
+The Code of Conduct Policy establishes standards for professional, ethical, respectful, and responsible behavior in the workplace.
+Policy:
+Employees are expected to maintain professionalism and respect in all workplace interactions.
+Employees must treat colleagues, customers, business partners, and other individuals fairly and respectfully.
+Harassment, discrimination, bullying, intimidation, or other forms of workplace misconduct are prohibited.
+Employees must comply with applicable company policies and workplace procedures.
+Employees are expected to protect confidential company and customer information.
+Employees must avoid behavior that could damage the company's professional environment or reputation.
+Conflicts of interest should be disclosed to the appropriate manager or HR representative.
+Employees must cooperate with legitimate internal investigations.
+Violations of the Code of Conduct may result in disciplinary action.
+Depending on the nature and severity of the violation, disciplinary action may include warnings, suspension, or termination.
+All employees must complete annual Code of Conduct training.
+Employees should report suspected misconduct through the appropriate company reporting channels.
+
+7. HOLIDAYS
+Purpose:
+The Holiday Policy defines the company's public holiday schedule and the treatment of employees who are required to work on designated holidays.
+Policy:
+The company observes 12 public holidays every year.
+The official holiday calendar is published by HR at the start of each year.
+Employees should refer to the official HR holiday calendar for the applicable holiday dates.
+Holiday schedules may vary depending on business location or applicable requirements.
+Employees should plan their leave and work activities around the published holiday calendar.
+Employees required to work on a public holiday are eligible for compensatory leave.
+Compensatory leave should be requested and used according to the company's applicable procedures.
+Managers should ensure that employees required to work on holidays are appropriately informed.
+The official HR holiday calendar takes precedence over informal or unofficial holiday lists.
+
+8. EXIT POLICY
+Purpose:
+The Exit Policy establishes the procedures employees must follow when leaving the company through resignation or termination.
+Policy:
+Employees leaving the company must complete the required separation and clearance process.
+The clearance process involves the IT, Finance, and HR departments.
+Employees must return company property, including laptops, access cards, documents, and other assigned assets.
+IT is responsible for completing the relevant IT-asset and system-access clearance.
+Finance is responsible for reviewing outstanding financial obligations, reimbursements, advances, or other applicable matters.
+HR is responsible for completing employment records and separation documentation.
+Employees should complete required knowledge transfer before their last working day.
+Employees must complete all required clearance activities before or around their last working day according to company procedures.
+Full and final settlement includes applicable pending payments, reimbursements, and leave encashment.
+Full and final settlement is processed within 45 days of the last working day.
+Employees may be required to participate in an exit interview.
+Employment-related documents should be provided according to company procedures.
+Access to company systems will be disabled as part of the separation process.
+
+9. ATTENDANCE POLICY
+Purpose:
+The Attendance Policy defines the company's expectations regarding employee attendance, punctuality, attendance recording, and regular presence during scheduled working hours.
+Policy:
+Employees are expected to report to work according to their assigned work schedule.
+Employees must record their attendance using the company's designated attendance system, HR portal, or access-control system.
+Employees are expected to be punctual and ready to begin work at their scheduled start time.
+Repeated late arrivals, early departures, or unexplained absences may be considered attendance violations.
+Employees who are unable to report to work must notify their manager as early as possible.
+Absences without prior notification or approval may be treated as unauthorized absence.
+Managers are responsible for monitoring attendance and addressing recurring attendance issues.
+Employees must accurately record their own attendance and must not record attendance on behalf of another employee.
+Attendance records may be used for payroll, leave management, compliance, and performance-management purposes.
+Employees who have extended or recurring attendance issues may be required to discuss the situation with HR.
+
+10. WORKING HOURS & OVERTIME POLICY
+Purpose:
+This policy establishes standard working hours and explains the rules governing overtime and additional working hours.
+Policy:
+The standard working schedule is 8 working hours per day, Monday through Friday, excluding designated breaks.
+Employees are expected to follow the working schedule assigned to their department or role.
+Certain teams may operate under different schedules because of business requirements, customer support, or shift-based operations.
+Employees must obtain manager approval before working overtime.
+Overtime should normally be performed only when there is a genuine business requirement.
+Employees must accurately record approved overtime through the company's designated system.
+Overtime compensation or compensatory time off will be provided according to company policy and applicable employment regulations.
+Working additional hours without required approval does not automatically qualify an employee for overtime compensation.
+Employees should take appropriate breaks during extended working periods.
+Managers are responsible for ensuring that overtime is properly planned, approved, and recorded.
+
+11. EMPLOYEE BENEFIT POLICY
+Purpose:
+The Employee Benefits Policy describes benefits and programs provided to eligible employees in addition to their regular salary.
+Policy:
+Eligible employees may receive benefits such as health insurance, life insurance, retirement benefits, wellness programs, allowances, and other company-sponsored benefits.
+Benefit eligibility may depend on employment status, grade, location, tenure, or applicable company rules.
+Employees must provide accurate information and documentation required for benefit enrollment.
+Employees may be required to enroll in benefits within a specified period after joining the company.
+Changes to personal information, dependents, or beneficiary information should be reported to HR promptly.
+Certain benefits may have limits, exclusions, waiting periods, or eligibility conditions.
+The company may periodically review and modify benefit programs based on business requirements and applicable regulations.
+Employees leaving the company may lose eligibility for certain benefits after their last working day.
+HR is responsible for communicating significant changes to benefit programs.
+Employees should contact HR for clarification regarding individual benefit eligibility.
+
+12. PERFORMANCE MANAGEMENT POLICY
+Purpose:
+The Performance Management Policy establishes a structured process for setting goals, evaluating performance, providing feedback, and supporting employee development.
+Policy:
+Employees and managers should establish clear and measurable performance objectives.
+Performance goals should align with departmental and organizational objectives.
+Managers are expected to provide regular feedback throughout the performance cycle.
+Formal performance reviews will normally be conducted according to the company's annual or periodic review cycle.
+Performance evaluations may consider goal achievement, quality of work, productivity, collaboration, communication, leadership, and role-specific responsibilities.
+Employees should have an opportunity to discuss their performance evaluation with their manager.
+Employees who do not meet expected performance standards may receive additional coaching or development support.
+A Performance Improvement Plan (PIP) may be established when sustained improvement is required.
+A PIP may define specific improvement objectives, timelines, support, and review dates.
+Performance outcomes may be considered for compensation adjustments, promotions, career development, or other employment decisions.
+
+13. PROMOTION & CAREER DEVELOPMENT POLICY
+Purpose:
+This policy defines the company's approach to employee career growth, internal mobility, promotions, and professional development.
+Policy:
+Promotions are based on factors such as demonstrated performance, skills, experience, business requirements, and availability of suitable positions.
+Employees may be considered for promotion during formal performance-review cycles or through an approved internal promotion process.
+Meeting minimum eligibility requirements does not automatically guarantee promotion.
+Managers may recommend employees for promotion based on documented performance and readiness for increased responsibilities.
+Employees may apply for suitable internal positions when they meet the requirements of the role.
+Career development discussions should help employees identify skills and experience needed for future roles.
+Employees may be encouraged to create individual development plans with their managers.
+Career opportunities may include technical specialization, management roles, cross-functional assignments, or internal transfers.
+HR may provide career-development resources, training programs, mentoring, and internal job opportunities.
+Promotion decisions must follow applicable company policies and employment requirements.
+
+14. TRAINING & DEVELOPMENT POLICY
+Purpose:
+The Training & Development Policy supports continuous learning and helps employees develop the knowledge and skills required for their current and future responsibilities.
+Policy:
+Employees may participate in technical, functional, leadership, compliance, and professional-development training.
+Mandatory training programs must be completed within the specified deadline.
+Employees may request training based on their role, development goals, or identified skill gaps.
+Managers may recommend training based on performance reviews or business requirements.
+The company may provide internal training, external courses, workshops, certifications, or learning platforms.
+Certain company-sponsored external training programs may require prior approval.
+Employees must attend scheduled training sessions and complete required assessments where applicable.
+Certification expenses may be reimbursed when the certification has been approved in advance.
+Employees are expected to apply relevant knowledge gained through training to their work.
+Training participation and completion records may be maintained by HR.
+
+15. RECRUITMENT & HIRING POLICY
+Purpose:
+The Recruitment & Hiring Policy establishes a consistent and structured process for identifying, evaluating, selecting, and hiring employees.
+Policy:
+Recruitment should be based on legitimate business requirements and approved positions.
+Job descriptions should clearly define the responsibilities, qualifications, skills, and experience required for each position.
+Candidates may be evaluated through resume screening, interviews, technical assessments, behavioral assessments, or other appropriate selection methods.
+Recruitment decisions should be based on job-related qualifications and organizational requirements.
+Candidate information must be handled confidentially and in accordance with applicable privacy requirements.
+Selected candidates may be required to provide documentation for employment verification.
+Background verification may be conducted where permitted and required by company policy.
+Employment offers must receive appropriate internal approval before being issued.
+The offer letter should specify relevant employment terms, including position, compensation, location, joining date, and applicable conditions.
+Recruitment records should be maintained according to company record-retention requirements.
+Employees involved in recruitment must disclose potential conflicts of interest involving candidates.
+
+16. EMPLOYEE ONBOARDING POLICY
+Purpose:
+The Employee Onboarding Policy defines the process for integrating new employees into the organization.
+Policy:
+New employees must complete required joining documentation before or during onboarding.
+HR is responsible for collecting required employment documents and completing employee records.
+New employees should receive an introduction to company policies, procedures, values, and workplace expectations.
+IT should provide required accounts, system access, devices, and software based on the employee's role.
+Managers are responsible for explaining job responsibilities, team structure, goals, and initial expectations.
+Employees may be assigned an onboarding plan or mentor to support their transition.
+Mandatory compliance, security, and Code of Conduct training must be completed within the required timeframe.
+Employees should receive information about attendance, leave, benefits, payroll, security, and other relevant HR processes.
+Access to systems should follow the principle of providing only the permissions required for the employee's role.
+Onboarding progress may be reviewed during the employee's initial period.
+Any equipment issued to the employee should be recorded and acknowledged.
+
+17. TRANSFER & RELOCATION POLICY
+Purpose:
+The Transfer & Relocation Policy establishes guidelines for employees who move between departments, positions, offices, or geographical locations.
+Policy:
+Employees may be transferred based on business requirements, organizational restructuring, career development, or employee-requested opportunities.
+Internal transfers normally require approval from the current manager, receiving manager, and HR.
+Employees applying for internal positions must meet the qualifications specified for the position.
+Transfers should include a defined effective date and appropriate transition plan.
+Employees relocating to another company location may be eligible for relocation assistance according to company rules.
+Relocation assistance may include approved transportation, temporary accommodation, moving expenses, or other eligible expenses.
+Employees must obtain approval before incurring relocation expenses that are expected to be reimbursed.
+Relocation benefits may vary based on employee level, destination, and business requirements.
+Employees may be required to return certain relocation benefits if they leave the company within a specified period, where such conditions apply.
+HR is responsible for communicating applicable relocation benefits and requirements.
+
+18. EXPENSE MANAGEMENT POLICY
+Purpose:
+The Expense Management Policy defines how employees should incur, document, submit, approve, and receive reimbursement for legitimate business expenses.
+Policy:
+Employees may claim reasonable and necessary expenses incurred for authorized business activities.
+Examples include business travel, client meetings, approved meals, transportation, accommodation, and other business-related expenses.
+Employees should obtain required approval before incurring significant or unusual expenses.
+Expense claims must include valid receipts, invoices, or other supporting documentation.
+Expense reports should be submitted within the company's specified submission period.
+Personal expenses are not eligible for reimbursement unless specifically authorized by company policy.
+Employees must not submit duplicate claims or intentionally misrepresent expenses.
+Managers are responsible for reviewing claims for business purpose, accuracy, and compliance.
+Finance may reject claims that do not meet policy requirements or lack appropriate documentation.
+Approved expenses are normally reimbursed through payroll or the company's designated payment process.
+Employees may be required to repay amounts associated with incorrectly claimed or unsupported expenses.
+
+19. RECORDS RETENTION POLICY
+Purpose:
+This policy also helps the company maintain accurate records, meet applicable legal and regulatory requirements, protect confidential information, and reduce unnecessary storage of outdated or duplicate records.
+Policy
+Acme Corp employees must create and maintain accurate, complete, and reliable records related to company business activities.
+Company records may exist in physical or electronic formats, including documents, emails, contracts, reports, databases, spreadsheets, HR records, financial records, invoices, system logs, and other business-related information.
+Employees must store company records using approved company systems, applications, repositories, or physical storage locations.
+Records must be classified and handled according to their sensitivity and business purpose. Confidential and sensitive records must be protected against unauthorized access, modification, disclosure, loss, or destruction.
+The company will retain records for periods determined by applicable laws, regulatory requirements, contractual obligations, business requirements, and approved company retention schedules.
+Employees must not intentionally delete, alter, conceal, or destroy records that are required to be retained under company policy, legal requirements, regulatory obligations, contractual requirements, or an active investigation.
+Records that have reached the end of their approved retention period may be securely disposed of in accordance with company procedures.
+Electronic records should be securely deleted using approved methods when disposal is authorized. Physical records containing confidential or sensitive information should be securely destroyed using approved methods such as secure shredding.
+Employees who receive a records-preservation or legal-hold notice must follow the instructions provided and cooperate with the relevant Legal, Compliance, HR, IT, or other authorized teams.
+Managers are responsible for ensuring that employees maintain records required for their business functions.
+HR is responsible for maintaining employee-related records according to applicable retention requirements and company procedures.
+Finance is responsible for maintaining financial and accounting records according to applicable legal, tax, audit, and company requirements.
+
+20. IT & ACCEPTABLE USE POLICY
+Purpose:
+The IT & Acceptable Use Policy defines appropriate and responsible use of company technology, systems, networks, devices, software, and digital resources.
+Policy:
+Company IT resources must primarily be used for legitimate business purposes.
+Employees must protect their usernames, passwords, authentication tokens, and other credentials.
+Passwords must not be shared with other employees or unauthorized individuals.
+Employees must use company-approved software and applications for business activities.
+Unauthorized software installation may be prohibited because it can create security and compliance risks.
+Employees must not attempt to bypass security controls or access systems or information without authorization.
+Company devices must be protected from theft, unauthorized access, and misuse.
+Employees must not use company systems to access, distribute, or store illegal or inappropriate content.
+Sensitive company information must only be shared with authorized individuals.
+Employees must immediately report suspected phishing attacks, malware, lost devices, unauthorized access, or other security incidents.
+The company may monitor the use of its IT systems to maintain security, availability, and compliance, subject to applicable laws and company policies.
