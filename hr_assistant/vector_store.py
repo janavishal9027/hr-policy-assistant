@@ -4,13 +4,19 @@ import os
 from langchain_community.vectorstores import FAISS
 from hr_assistant import config
 from hr_assistant.embeddings import get_embedding_model
+from hr_assistant.logger import get_logger
+
+logger = get_logger(__name__)
 
 # Building vector store using FAISS and Jina embeddings
 
 def build_vector_store(chunks):
     """Build a FAISS vector store from the provided documents using Jina embeddings."""
+    logger.info("Embedding %d chunks and building FAISS index...", len(chunks))
     embedding_model = get_embedding_model()  # Get the embedding model
-    return FAISS.from_documents(chunks, embedding_model)  # Create a FAISS vector store from the Chunks and embeddings
+    vector_store = FAISS.from_documents(chunks, embedding_model)  # Create a FAISS vector store from the Chunks and embeddings
+    logger.info("Vector store built successfully.")
+    return vector_store
 
 # Saving and loading the vector store
 
@@ -18,9 +24,11 @@ def save_vector_store(vector_store, path: str=config.VECTOR_STORE_PATH) -> None:
     """Save the FAISS vector store to the specified path."""
     os.makedirs(path, exist_ok=True)  # Create the directory if it doesn't exist
     vector_store.save_local(path)  # Save the vector store locally
+    logger.info(f"Vector store saved to {path}")
 
 def load_vector_store(path: str =config.VECTOR_STORE_PATH):
     """Load the FAISS vector store from the specified path."""
+    logger.info(f"Loading vector store from {path}")
     return FAISS.load_local(path, get_embedding_model(), allow_dangerous_deserialization=True)  # Load the vector store locally
 
 # Check if the vector store exists
@@ -33,5 +41,6 @@ def vector_store_exists(path: str = config.VECTOR_STORE_PATH) -> bool:
 
 def get_retriever(vector_store, k: int = config.TOP_K_RESULTS):
     """Turn a vector store into a retriever that returns the top-k matching chunks for searching relevant information."""
+    logger.info(f"Creating a retriever from the vector store with top-k results: {k}")
     return vector_store.as_retriever(search_kwargs={"k": k})  # Return a retriever with the specified number of top results
 

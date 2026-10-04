@@ -1,0 +1,15 @@
+2026-10-04 18:19:09,096 | INFO | hr_assistant.pipeline -| Starting to build the HR Assistant...
+2026-10-04 18:19:09,097 | INFO | hr_assistant.pipeline -| Vector store already exists on disk, loading and reusing it...
+2026-10-04 18:19:09,097 | INFO | hr_assistant.vector_store -| Loading vector store from hr_policy\faiss_index
+2026-10-04 18:19:09,097 | INFO | hr_assistant.embeddings -| Initializing Jina embedding model with model name: jina-embeddings-v2-base-en
+2026-10-04 18:19:09,099 | DEBUG | faiss.loader -| Environment variable FAISS_OPT_LEVEL is not set, so let's pick the instruction set according to the current CPU
+2026-10-04 18:19:09,099 | INFO | faiss.loader -| Loading faiss with AVX2 support.
+2026-10-04 18:19:09,101 | INFO | faiss.loader -| Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2026-10-04 18:19:09,101 | INFO | faiss.loader -| Loading faiss.
+2026-10-04 18:19:09,123 | INFO | faiss.loader -| Successfully loaded faiss.
+2026-10-04 18:19:09,130 | INFO | hr_assistant.vector_store -| Creating a retriever from the vector store with top-k results: 3
+2026-10-04 18:19:09,133 | INFO | hr_assistant.llm -| Initializing LLM with model name: openai/gpt-oss-120b
+2026-10-04 18:19:09,645 | INFO | hr_assistant.agent -| Creating HR Assistant agent with LLM model: openai/gpt-oss-120b and tools: ['create_search_tool']
+2026-10-04 18:19:09,649 | INFO | hr_assistant.agent -| HR Assistant agent created successfully.
+2026-10-04 18:19:09,649 | INFO | hr_assistant.pipeline -| HR Assistant built successfully. Now you can interact with it by asking questions.

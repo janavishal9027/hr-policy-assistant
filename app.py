@@ -9,6 +9,9 @@ It orchestrates the entire process, from loading the HR policy documents, creati
 
 import streamlit as st
 from hr_assistant.pipeline import ask, build_hr_assistant_agent
+from hr_assistant.logger import get_logger
+
+logger = get_logger(__name__)
 
 st.set_page_config(page_title="HR PolicyAssistant", page_icon="🤖")
 st.title("🤖 HR Policy Assistant")
@@ -35,6 +38,7 @@ for message in st.session_state.messages:
 question = st.chat_input("Ask me anything about company's HR policies...")
 
 if question:
+    logger.info("=== Streamlit run: new question received ===")  # Log the user's question
     st.session_state.messages.append({"role": "user", "content": question})  # Add the user's question to the message history
     with st.chat_message("user"):
         st.markdown(question)  # Display the user's question in the chat

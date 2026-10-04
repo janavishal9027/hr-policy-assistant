@@ -4,8 +4,12 @@ This is the main entry point for the HR Assistant application. It orchestrates t
 """
 
 from hr_assistant.pipeline import ask, build_hr_assistant_agent
+from hr_assistant.logger import get_logger
+
+logger = get_logger(__name__)
 
 def main():
+    logger.info("=== CLI Run Started ===")
     print("Building the HR policy assistant...")
     agent = build_hr_assistant_agent()  # Build the HR Assistant agent
     print("HR policy assistant is ready to answer your questions. Type 'exit' to quit...")
@@ -24,6 +28,8 @@ def main():
         print(f"Answer: {answer}")
         print("=" * 60)
         print()
+
+        logger.info("=== CLI Run Completed ===")
 
 
 if __name__ == "__main__":

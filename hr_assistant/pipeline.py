@@ -19,6 +19,9 @@ from hr_assistant.vector_store import (
     vector_store_exists,
     get_retriever
 )
+from hr_assistant.logger import get_logger
+
+logger = get_logger(__name__)
 
 # Building vector store
 
@@ -26,9 +29,11 @@ def build_vector_store_for_document(file_path: str = config.DATA_PATH):
     """Load + split + embed the document, reusing a saved index if it exists, and return the vector store."""
     if vector_store_exists():
         print("Found a saved vector store on disk, (loading it...) - fast, no re-embedding needed.")
+        logger.info("Vector store already exists on disk, loading and reusing it...")
         return load_vector_store()
 
     print("No saved vector store found on disk, (building it...) - this may take a while.")
+    logger.info("No saved vector store found on disk, building a new one from scratch...")
     documents = load_documents(file_path)  # Load the HR policy documents
     chunks = split_text_into_chunks(documents)  # Split the documents into chunks
     print(f"Loaded '{len(documents)}' documents and split them into '{len(chunks)}' chunks.")
@@ -43,6 +48,7 @@ def build_vector_store_for_document(file_path: str = config.DATA_PATH):
 
 def build_hr_assistant_agent(file_path: str = config.DATA_PATH):
     """ Build the full RAG Agent pipeline: Load + Split + Embed + Store + Retrieve + Answer. """
+    logger.info("Starting to build the HR Assistant...")
     config.check_api_keys()  # Check if the required API keys are present
 
     vector_store = build_vector_store_for_document(file_path)  # Build the vector store for the document
@@ -52,6 +58,7 @@ def build_hr_assistant_agent(file_path: str = config.DATA_PATH):
     llm = get_llm_response()  # Get the LLM response
     agent = create_hr_assistant_agent(llm, [search_tool])  # Create the HR Assistant agent using the LLM and search tool
 
+    logger.info("HR Assistant built successfully. Now you can interact with it by asking questions.")
     return agent  # Return the HR Assistant agent
 
 
@@ -59,6 +66,7 @@ def build_hr_assistant_agent(file_path: str = config.DATA_PATH):
 
 def ask(agent, question: str):
     """Ask a question to the HR Assistant agent and return the answer."""
+    logger.info(f"Asking the HR Assistant agent a question: {question}")
     response = agent.invoke(
         {
             "messages": [
@@ -69,4 +77,6 @@ def ask(agent, question: str):
             ]
         }
     )  # Invoke the agent with the user question
-    return response["messages"][-1].content  # Return the content of the response
+    answer = response["messages"][-1].content  # Return the content of the response
+    logger.info(f"Received answer from the HR Assistant agent: {answer}")
+    return answer
