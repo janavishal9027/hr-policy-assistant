@@ -3,3 +3,5 @@ basicragenv
 .env
 
 hr_policy\faiss_index
+
+logs

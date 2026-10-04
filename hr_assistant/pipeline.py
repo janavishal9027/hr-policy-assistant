@@ -20,6 +20,7 @@ from hr_assistant.vector_store import (
     get_retriever
 )
 from hr_assistant.logger import get_logger
+from hr_assistant.tracing import check_langsmith_tracing
 
 logger = get_logger(__name__)
 
@@ -50,6 +51,7 @@ def build_hr_assistant_agent(file_path: str = config.DATA_PATH):
     """ Build the full RAG Agent pipeline: Load + Split + Embed + Store + Retrieve + Answer. """
     logger.info("Starting to build the HR Assistant...")
     config.check_api_keys()  # Check if the required API keys are present
+    check_langsmith_tracing()  # Check if LangSmith tracing is enabled
 
     vector_store = build_vector_store_for_document(file_path)  # Build the vector store for the document
     retriever = get_retriever(vector_store)  # Get a retriever from the vector store

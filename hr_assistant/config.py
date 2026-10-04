@@ -8,6 +8,12 @@ load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 JINA_API_KEY = os.getenv("JINA_API_KEY")
 
+# Tracing and logging configuration for LangChain
+LANGSMITH_TRACING = os.getenv("LANGSMITH_TRACING", "false")
+LANGSMITH_ENDPOINT = os.getenv("LANGSMITH_ENDPOINT")
+LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY")
+LANGSMITH_PROJECT = os.getenv("LANGSMITH_PROJECT")
+
 ## Define path - Data / Vector Store
 
 DATA_PATH = os.path.join("hr_policy", "policy_documents.txt")  # Path to the HR policy documents
@@ -54,3 +60,5 @@ def check_api_keys() -> None:
     #     raise ValueError("Missing QDRANT_URL/QDRANT_API_KEY. Please add them to your .env file.")
     # if not PORTKEY_API_KEY:
     #     raise ValueError("Missing PORTKEY_API_KEY. Please add it to your .env file.")
+
+

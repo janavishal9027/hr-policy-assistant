@@ -19,3 +19,6 @@ ipykernel
 
 ## web app
 streamlit
+
+## Langchain's observability platform
+Langsmith
