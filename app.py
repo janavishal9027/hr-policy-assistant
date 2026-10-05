@@ -8,43 +8,156 @@ It orchestrates the entire process, from loading the HR policy documents, creati
 
 
 import streamlit as st
-from hr_assistant.pipeline import ask, build_hr_assistant_agent
+from hr_assistant.pipeline import (
+    ask,
+    ask_stream,
+    build_hr_assistant_agent
+)
+
 from hr_assistant.logger import get_logger
 
 logger = get_logger(__name__)
 
-st.set_page_config(page_title="HR PolicyAssistant", page_icon="🤖")
+# ============================================================
+# PAGE CONFIGURATION
+# ============================================================
+st.set_page_config(
+    page_title="HR Policy Assistant",
+    page_icon="🤖",
+    layout="centered"
+)
+
+# ============================================================
+# APPLICATION HEADER
+# ============================================================
 st.title("🤖 HR Policy Assistant")
-st.caption("Ask me anything about company's HR policies and get instant answers!")
+st.caption(
+    "Ask me anything about company's HR policies "
+    "and get instant answers!"
+)
 
+# ============================================================
+# BUILD / LOAD AGENT
+# ============================================================
 
-@st.cache_resource(show_spinner="Setting up the assistant (only happens once)...")
+@st.cache_resource(
+    show_spinner="Setting up the assistant (only happens once)..."
+)
 def get_agent():
-    """Build the HR Assistant agent and cache it for future use."""
-    return build_hr_assistant_agent()  # Build the HR Assistant agent
+    """
+    Build the HR Assistant agent and cache it.
 
-agent = get_agent()  # Get the HR Assistant agent
+    The agent will only be created once during the Streamlit
+    session unless the cache is cleared.
+    """
 
+    return build_hr_assistant_agent()
+
+
+agent = get_agent()
+
+
+# ============================================================
+# INITIALIZE CHAT HISTORY
+# ============================================================
 if "messages" not in st.session_state:
-    st.session_state.messages = []  # Initialize the message history in the session state
 
-# Show the chat history on the Streamlit app
+    st.session_state.messages = []
+
+# ============================================================
+# DISPLAY PREVIOUS CHAT HISTORY
+# ============================================================
 
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])  # Display the message content in the chat
 
-# get a new question from the user
-question = st.chat_input("Ask me anything about company's HR policies...")
+    with st.chat_message(message["role"]):
+
+        st.markdown(
+            message["content"]
+        )
+
+# ============================================================
+# CHAT INPUT
+# ============================================================
+question = st.chat_input(
+    "Ask me anything about company's HR policies..."
+)
+
+# ============================================================
+# PROCESS NEW QUESTION
+# ============================================================
 
 if question:
-    logger.info("=== Streamlit run: new question received ===")  # Log the user's question
-    st.session_state.messages.append({"role": "user", "content": question})  # Add the user's question to the message history
+
+    logger.info(
+        "=== Streamlit run: new question received ==="
+    )
+
+    logger.info(
+        f"User question: {question}"
+    )
+
+    # --------------------------------------------------------
+    # Add user message to session history
+    # --------------------------------------------------------
+
+    st.session_state.messages.append(
+        {
+            "role": "user",
+            "content": question
+        }
+    )
+
+    # --------------------------------------------------------
+    # Display user message
+    # --------------------------------------------------------
+
     with st.chat_message("user"):
-        st.markdown(question)  # Display the user's question in the chat
+
+        st.markdown(question)
+
+    # --------------------------------------------------------
+    # Generate assistant response
+    # --------------------------------------------------------
 
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            answer = ask(agent, question)  # Ask the question to the agent
-        st.markdown(answer)  # Display the agent's answer in the chat
-    st.session_state.messages.append({"role": "assistant", "content": answer})  # Add the agent's answer to the message history
+
+        try:
+
+            # Stream response word-by-word
+            answer = st.write_stream(
+                ask_stream(
+                    agent,
+                    question
+                )
+            )
+
+        except Exception as e:
+
+            logger.exception(
+                "Error while generating streaming response."
+            )
+
+            answer = (
+                "Sorry, I encountered an error while "
+                "processing your request."
+            )
+
+            st.error(
+                f"Error: {str(e)}"
+            )
+
+    # --------------------------------------------------------
+    # Save completed assistant response
+    # --------------------------------------------------------
+
+    st.session_state.messages.append(
+        {
+            "role": "assistant",
+            "content": answer
+        }
+    )
+
+    logger.info(
+        f"Completed assistant response: {answer}"
+    )
