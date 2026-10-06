@@ -23,6 +23,7 @@ from hr_assistant.vector_store import (
 from hr_assistant.logger import get_logger
 from hr_assistant.tracing import check_langsmith_tracing
 from langchain_core.messages import AIMessageChunk
+from hr_assistant.agent_harness import HRAgentHarness
 
 logger = get_logger(__name__)
 
@@ -149,12 +150,14 @@ def build_hr_assistant_agent(
         [search_tool]
     )
 
+    harness = HRAgentHarness(agent)
+
     logger.info(
         "HR Assistant built successfully. "
         "Now you can interact with it by asking questions."
     )
 
-    return agent
+    return harness
 
 
 # ============================================================
@@ -221,8 +224,7 @@ def ask_stream(agent, question: str):
                         "content": question
                     }
                 ]
-            },
-            stream_mode="messages",
+            }
         ):
 
             # ==================================================
@@ -282,14 +284,12 @@ def ask_stream(agent, question: str):
                 if not word:
                     continue
 
-                # Send word to Streamlit
                 yield word + " "
 
-                # Small UI delay for visible word-by-word effect
                 time.sleep(0.03)
 
         # ======================================================
-        # SEND REMAINING TEXT
+        # REMAINING TEXT
         # ======================================================
 
         if buffer:
